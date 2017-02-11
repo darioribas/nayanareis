@@ -89,7 +89,8 @@
 	}
 
 		a:hover {
-			color: #d64760;
+			/*color: #d64760;*/
+			color: #555555;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -194,7 +195,7 @@
 
 	#header {
 		position: relative;
-		background: #d64760 url("images/overlay.png");
+		background: #444444 url("images/overlay.png");
 		color: #fff;
 		cursor: default;
 	}
@@ -307,6 +308,15 @@
 					font-size: 1.25em;
 					line-height: 1.5em;
 					margin: 0.5em 0 0 0;
+				}
+
+				#header .logo {
+					background: url("../../images/logo.png");
+					width: 320px;
+					height:101px;
+					position: absolute;
+					left: middle;
+					top: 70px;
 				}
 
 		/* Footer */
