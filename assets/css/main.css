@@ -310,10 +310,20 @@
 					margin: 0.5em 0 0 0;
 				}
 
+				#header .bglogo {
+					background: url("images/bg_logo.jpg");
+					width: 500px;
+					height: 400px;
+					position: absolute;
+					left: -50px;
+					top: -100px;
+				}
+
+
 				#header .logo {
 					background: url("../../images/logo.png");
 					width: 320px;
-					height:101px;
+					height: 101px;
 					position: absolute;
 					left: middle;
 					top: 70px;
